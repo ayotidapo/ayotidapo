@@ -1,0 +1,96 @@
+.txt_wrap {
+  position: relative;
+  display: block;
+}
+
+.txt_wrap > .bd_btm {
+  position: absolute;
+  display: inline-block;
+  border-bottom: 2px solid #06bbad;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  transition: all 0.2s ease-in;
+}
+
+.input_text {
+  width: 100%;
+  height: 50px;
+  font-size: 1.4rem;
+  padding: 20px 10px;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0px 0px;
+  border: none;
+}
+.input_text:focus {
+  outline: none;
+}
+
+.input_text::placeholder {
+  transform: translateY(-40%);
+  font-size: 1.2rem;
+}
+
+.input_text:focus::placeholder {
+  outline: none;
+  color: transparent;
+}
+.input_text:focus::-moz-placeholder {
+  outline: none;
+  color: transparent;
+}
+.input_text:focus::-webkit-input-placeholder {
+  outline: none;
+  color: transparent;
+}
+
+.input_text:focus ~ .bd_btm {
+  width: 100%;
+}
+
+.txt_wrap > .show_bd {
+  width: 100%;
+}
+.txt_wrap > .bd_btm_err {
+  border-bottom: 2px solid red;
+  width: 100%;
+}
+
+.input_text + .label {
+  position: absolute;
+  color: red;
+  top: 22px;
+  font-size: 1.4rem;
+  left: 23px;
+  color: #636c72;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s linear;
+}
+
+.input_text:focus + .label,
+.input_text:not(:placeholder-shown) + .label {
+  top: 5px;
+  left: 12px;
+  visibility: visible;
+  opacity: 1;
+  font-size: 0.8rem;
+  color: #06bbad;
+}
+
+.t_area_div {
+  display: block;
+  width: 100%;
+}
+.t_area_div textarea {
+  width: 100%;
+  height: 250px;
+  padding: 20px 10px;
+  font-size: 1.4rem;
+  border-radius: 5px 5px 0px 0px;
+  font-family: "SF UI Display", sans-serif;
+}
+.t_area_div textarea:focus {
+  border-bottom: 2px solid #06bbad;
+}

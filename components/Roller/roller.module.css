@@ -1,0 +1,28 @@
+.btn__loader {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-width: 0.35rem;
+  border-style: solid;
+  border-color: #d6c463 transparent #d6c463 transparent;
+  animation: rotation 1s infinite linear;
+  animation-direction: reverse;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn__loader_load {
+  width: 35px;
+  height: 35px;
+  border-color: #2ed8ca transparent #2ed8ca transparent;
+  animation: rotation 1s infinite linear;
+  animation-direction: normal;
+}

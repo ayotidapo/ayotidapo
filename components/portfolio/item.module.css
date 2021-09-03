@@ -1,0 +1,139 @@
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  box-shadow: 0 0 4px #fff;
+  border-radius: 7px;
+  transition: transform 0.2s linear;
+}
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(27, 24, 9, 0.9);
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.img__cont {
+  position: relative;
+}
+.img__cont:hover + .overlay,
+.overlay:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  width: 15px;
+  height: 15px;
+  top: 5px;
+  left: 50%;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+/* .img__cont:hover + .overlay {
+  z-index: 2;
+} */
+
+.overlay:hover::before {
+  opacity: 1;
+  left: 5px;
+}
+
+.overlay::after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  bottom: 5px;
+  right: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.overlay:hover::after {
+  opacity: 1;
+  right: 5px;
+}
+
+.overlay svg {
+  margin: 10px;
+}
+
+.item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.item:hover {
+  transform: scale(1.04);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.item_img {
+  border-radius: 7px 7px 0px 0px;
+
+  /*min-width: 100%;*/
+}
+
+.excerpt {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.excerpt:hover {
+  cursor: unset !important;
+}
+.excerpt h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.excerpt p {
+  overflow: hidden;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 1rem;
+  margin: 5px 0px;
+}
+
+.web {
+  display: flex;
+  align-items: center;
+  color: var(--sec-color);
+}
+.spin {
+  transform: rotateY(0deg);
+  transition: all 1s linear;
+  margin-right: 7px;
+}
+
+.web:hover .spin {
+  transform: rotateY(180deg);
+}

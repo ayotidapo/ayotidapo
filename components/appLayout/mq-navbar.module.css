@@ -1,0 +1,28 @@
+.navi {
+  height: 80%;
+  color: #fff;
+  width: 100%;
+  background: #000;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  border-right: 1px solid #ccc;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s linear;
+}
+.naviClose {
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.navi ul {
+  padding-top: 80px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navi ul li {
+  padding: 20px;
+}

@@ -3,15 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.13.7",
     "next": "11.0.0",
+    "nodemailer": "^6.6.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-toastify": "^7.0.4",
+    "typewriter-effect": "^2.18.0"
   },
   "devDependencies": {
     "eslint": "7.29.0",

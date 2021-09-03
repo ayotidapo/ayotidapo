@@ -1,0 +1,45 @@
+.navi li {
+  color: #fff;
+  padding: 0px 12px 5px 5px;
+  list-style: none;
+  position: relative;
+}
+
+.navi li:first-child {
+  padding-left: 0px;
+}
+
+.navi li:after {
+  content: "";
+  height: 2px;
+  width: 70%;
+  bottom: 0;
+  left: -20px;
+  opacity: 0;
+  position: absolute;
+  display: inline-block;
+  background: #fff;
+  transition: left 0.7s;
+}
+
+.navi li:hover:after {
+  left: 0px;
+  opacity: 1;
+  background: var(--sec-color);
+}
+
+.sm_navi {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  visibility: visible;
+  color: #fff;
+}
+
+@media only screen and (max-width: 484px) {
+  .navi ul {
+    opacity: 0;
+    visibility: hidden;
+    height: 0px;
+  }
+}

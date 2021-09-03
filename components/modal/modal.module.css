@@ -1,0 +1,122 @@
+.modal {
+  height: calc(100% - 80px);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transition: all 0.2s linear;
+  /* opacity 0.1s linear, transform 0.2s linear */
+}
+
+.showModal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+.modal_wrapper {
+  height: 100%;
+  position: relative;
+  width: 80%;
+  padding: 90px 100px;
+  box-sizing: border-box;
+}
+
+.child_wrapper {
+  overflow: scroll;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.modal span {
+  position: absolute;
+  transform: scale(1);
+  transition: transform 0.2s linear;
+}
+.modal span:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.closeIcon {
+  color: #fff;
+  top: 15px;
+  right: 40px;
+}
+.leftIcon {
+  color: #fff;
+  top: 45%;
+  left: 20px;
+}
+.rytIcon {
+  color: #fff;
+  top: 45%;
+  right: 20px;
+}
+
+/* .modal_wrapper::before {
+  content: "";
+  border: 2px solid #fff;
+  border-color: transparent #fff #fff transparent;
+  position: absolute;
+  top: 45%;
+  left: 50px;
+  width: 38px;
+  height: 38px;
+  transform: rotate(128deg);
+} */
+
+/* .modal_wrapper::after {
+  content: "";
+  border: 2px solid #fff;
+  border-color: transparent #fff #fff transparent;
+  position: absolute;
+  top: 45%;
+  right: 50px;
+  width: 38px;
+  height: 38px;
+  transform: rotate(310deg);
+} */
+
+/* .modal_wrapper:hover::before {
+  cursor: pointer;
+  // border-color: transparent var(--sec-color) var(--sec-color) transparent; 
+} */
+
+/* .modal_wrapper:hover::after {
+  cursor: pointer;
+  // border-color: transparent var(--sec-color) var(--sec-color) transparent; 
+} */
+
+@media only screen and (max-width: 768px) {
+  .modal_wrapper {
+    height: 100%;
+    position: relative;
+    width: 90%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+  /* .modal_wrapper::after {
+    right: -20px;
+    width: 20px;
+    height: 20px;
+  }
+  .modal_wrapper::before {
+    left: -20px;
+    width: 20px;
+    height: 20px;
+  } */
+}
