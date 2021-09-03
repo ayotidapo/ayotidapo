@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import cx from "classnames";
 import classes from "./modalitem.module.css";
 

@@ -1,5 +1,5 @@
 import Icon from "../icon";
-import Image from "next/Image";
+import Image from "next/image";
 
 import classes from "./item.module.css";
 
