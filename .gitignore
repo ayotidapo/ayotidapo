@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#my-local-env-var
+my-dev-env-var.js
