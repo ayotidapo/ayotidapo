@@ -34,10 +34,10 @@ export default function About() {
             </p>
             <p>
               I have over 4 years experience working professionally in
-              Engineering; I&apos;ve worked on-site and remotely in a
-              distributing team of developers spread across the world. I&aps;m
-              proficient in JavaScript, Typescript, React, NodeJS, HTML and CSS,
-              with past experience in Python and Java.
+              Engineering; I've worked on-site and remotely in a distributing
+              team of developers spread across the world. I'm proficient in
+              JavaScript, Typescript, React, NodeJS, HTML and CSS, with past
+              experience in Python and Java.
             </p>
             <p>
               I was a Frontend Developer at Travis CI where I contributed to the
@@ -53,8 +53,7 @@ export default function About() {
               features for huge web applications.
             </p>
             <p>
-              Outside of work, I&apos;m a football enthusiast, and I play
-              weekly.
+              Outside of work, I'm a football enthusiast, and I play weekly.
             </p>
           </div>
         </div>
