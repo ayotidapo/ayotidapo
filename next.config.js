@@ -6,7 +6,7 @@ module.exports = (phase) => {
     env = {
       mongodb_username: "",
       mongodb_password: "",
-      mongodb_clustername: "cluster0",
+      mongodb_clustername: "",
       mongodb_database: "my-portfolio",
     };
   } else {
