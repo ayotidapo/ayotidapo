@@ -19,7 +19,6 @@ module.exports = (phase) => {
   }
 
   return {
-    webpack5: true,
     reactStrictMode: true,
     images: {
       domains: ["res.cloudinary.com"],
