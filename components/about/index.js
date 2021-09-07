@@ -41,6 +41,10 @@ export default function About() {
               system etc
             </p>
             <p>
+              I use technologies like ReactJS, Redux, NextJS, GraphQL, Node,
+              ExpressJS, Mongoose to create beautiful stuff.
+            </p>
+            <p>
               I am currently working with a team of developers on a payment
               gateway solution at{" "}
               <Link href="http://www.eyowo.com">
@@ -48,7 +52,6 @@ export default function About() {
                   Eyowo{" "}
                 </a>
               </Link>{" "}
-              using technologies like React/Redux, NextJs, NodeJS.
             </p>
             <p>At my leisure time, I watch movies and play ping pong game.</p>
           </div>
