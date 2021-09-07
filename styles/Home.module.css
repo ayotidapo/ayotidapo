@@ -5,6 +5,7 @@
   height: 100%;
   padding: 10px;
 }
+
 .wrapper {
   display: grid;
   flex: 1;
@@ -57,6 +58,9 @@
   .heroImg img {
     width: 250px;
     height: 250px;
+  }
+  .name {
+    font-size: 2rem;
   }
 }
 

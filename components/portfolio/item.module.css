@@ -2,10 +2,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: auto;
   box-shadow: 0 0 4px #fff;
   border-radius: 7px;
   transition: transform 0.2s linear;
+  padding-bottom: 10px;
 }
 
 .overlay {
@@ -124,7 +125,7 @@
 }
 
 .web {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   color: var(--sec-color);
 }
@@ -132,8 +133,15 @@
   transform: rotateY(0deg);
   transition: all 1s linear;
   margin-right: 7px;
+  vertical-align: middle;
 }
 
 .web:hover .spin {
   transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 380px) {
+  .item {
+    margin-bottom: 25px;
+  }
 }

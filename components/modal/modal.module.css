@@ -46,6 +46,11 @@
   transform: scale(1);
   transition: transform 0.2s linear;
 }
+
+.modal span svg {
+  width: 70px;
+  height: 70px;
+}
 .modal span:hover {
   cursor: pointer;
   transform: scale(1.2);
@@ -64,6 +69,11 @@
   color: #fff;
   top: 45%;
   right: 20px;
+}
+
+.modal .closeIcon svg {
+  width: 35px;
+  height: 35px;
 }
 
 /* .modal_wrapper::before {
@@ -100,6 +110,12 @@
   // border-color: transparent var(--sec-color) var(--sec-color) transparent; 
 } */
 
+@media only screen and (max-width: 1025px) {
+  .modal_wrapper {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .modal_wrapper {
     height: 100%;
@@ -109,6 +125,25 @@
     box-sizing: border-box;
   }
 
+  .leftIcon {
+    color: #fff;
+    left: -40px;
+    width: 20px;
+  }
+  .rytIcon {
+    color: #fff;
+    top: 45%;
+    right: -40px;
+  }
+  .modal span:hover {
+    cursor: pointer;
+    transform: scale(1);
+  }
+  .closeIcon {
+    color: #fff;
+    top: 5px;
+    right: 10px;
+  }
   /* .modal_wrapper::after {
     right: -20px;
     width: 20px;
@@ -119,4 +154,19 @@
     width: 20px;
     height: 20px;
   } */
+}
+
+@media only screen and (max-width: 425px) {
+  .modal_wrapper {
+    padding: 5px;
+  }
+  .modal span svg {
+    width: 50px;
+    height: 50px;
+  }
+  .closeIcon {
+    color: #fff;
+    top: 5px;
+    right: 5px;
+  }
 }

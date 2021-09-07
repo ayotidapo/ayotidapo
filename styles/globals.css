@@ -46,8 +46,10 @@ main {
 button {
   width: 100%;
   border-radius: 5px;
-  background-color: #927d08;
-
+  background-color: #18aa9e;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
   color: #fff;
   height: 40px;
   border-width: 0px;
@@ -56,7 +58,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: #a78f07;
+  background-color: #27ada2;
 }
 
 button:disabled {

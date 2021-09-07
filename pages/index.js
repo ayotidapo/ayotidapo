@@ -35,7 +35,7 @@ export default function Home() {
             <div>
               <span className={classes.hero}>
                 <span style={{ fontSize: "1.4rem" }}>My name is&nbsp;</span>
-                &nbsp;OLADAPO AYO OTI
+                &nbsp;<span className={classes.name}>OLADAPO AYO OTI</span>
               </span>
               <p className="f-2 mb-10">
                 I&apos;m a Software Engineer (MERN Stack Developer)

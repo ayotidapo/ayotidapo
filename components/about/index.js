@@ -1,13 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faLinkedinIn,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classes from "./about.module.css";
 import React from "react";
 
@@ -29,33 +22,35 @@ export default function About() {
           </div>
           <div className={classes.ryt_side}>
             <p>
-              A Software Engineer with hands on experience developing websites,
-              full-stack web applications and APIs.
+              A Software Engineer who is passionate about coding and developing
+              application for web platform with hands on experience in
+              developing APIs.
             </p>
             <p>
-              I have over 4 years experience working professionally in
-              Engineering; I&apos;ve worked on-site and remotely in a
-              distributing team of developers spread across the world. I&apos;m
-              proficient in JavaScript, Typescript, React, NodeJS, HTML and CSS,
-              with past experience in Python and Java.
+              I have years of experience working professionally as a Frontend
+              Engineer. I&apos;ve worked on a couple of real-life problem
+              solving projects with a team of developers both on-site and
+              remotely.
             </p>
             <p>
-              I was a Frontend Developer at Travis CI where I contributed to the
-              rolling out of 3D authentication for our automatic billing
-              application. I worked with my team to develop the overall
-              experience from selecting a plan to managing said plan. Also, I
-              fixed bugs and other chores on Travis Web to ensure hitch-free
-              user experience.
+              Some of the projects I have worked on can be found on my{" "}
+              <Link href="/portfolio">
+                <a style={{ color: "#06bbad" }}>portfolio </a>
+              </Link>
+              page which includes Task outsourcing platform,learning management
+              system etc
             </p>
             <p>
-              I have also worked with Lagos-based companies like Zone Tech Park,
-              and Paystack where I worked with my team to build non-trivial
-              features for huge web applications.
+              I am currently working with a team of developers on a payment
+              gateway solution at{" "}
+              <Link href="http://www.eyowo.com">
+                <a style={{ color: "#06bbad" }} target="_blank">
+                  Eyowo{" "}
+                </a>
+              </Link>{" "}
+              using technologies like React/Redux, NextJs, NodeJS.
             </p>
-            <p>
-              Outside of work, I&apos;m a football enthusiast, and I play
-              weekly.
-            </p>
+            <p>At my leisure time, I watch movies and play ping pong game.</p>
           </div>
         </div>
       </div>
