@@ -28,14 +28,21 @@ I worked as the frontend engineer of the team.
 I worked in the team to build the web platform of the App`,
     isPrivate: true,
   },
+
   {
     pos: 3,
-    title: "AlldayHR",
-    url: `https://select.alldayhr.com/`,
-    image: "/hr.png",
-    description: `AlldayHR is a Nigerian based job portal and career platform owned by Workforce group. The app helps to list candidate job applications for employers and helps connect people looking for jobs with companies hiring. 
-I worked as an interface developer to translate creative software design concepts and ideas into reality using front end technology.`,
-    isPrivate: true,
+    title: "React-files-uploader",
+    url: `https://yarnpkg.com/package/files-uploader-rc`,
+    github: `https://github.com/ayotidapo/files-uploader-rc#react-files-uploader`,
+    image: "/npm.jpeg",
+    descImg: "/rfu.png",
+    description: `A very flexible file uploader that comes with:
+UI showing progress bar of simultaneous (Single or Multiple) file(s) uploading,
+allows cancel of uploading,
+flexible to add custom UI
+drag and drop feature and returns the uploaded file(s) url links.
+It also comes with its own Hooks incase of when UI is not needed.`,
+    isPrivate: false,
   },
 
   {
@@ -58,11 +65,11 @@ I worked as an interface developer to translate creative software design concept
   },
   {
     pos: 6,
-    title: "FrootMart",
-    url: `https://outwork.ng/`,
-    github: `https://github.com/ayotidapo/ayotidapo`,
-    image: "/anon.jpg",
-    description: `A remote work management software We help business managers succeed by putting them in control of their remote staff and productivity.`,
+    title: "AlldayHR",
+    url: `https://select.alldayhr.com/`,
+    image: "/hr.png",
+    description: `AlldayHR is a Nigerian based job portal and career platform owned by Workforce group. The app helps to list candidate job applications for employers and helps connect people looking for jobs with companies hiring. 
+I worked as an interface developer to translate creative software design concepts and ideas into reality using front end technology.`,
     isPrivate: true,
   },
 ];

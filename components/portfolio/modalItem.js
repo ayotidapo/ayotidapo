@@ -17,7 +17,12 @@ const ModalItem = ({ item, pos }) => {
       key={item.title}
     >
       <div className={classes.gifdiv}>
-        <Image src={item.image} alt="gif" layout="fill" objectFit="contain" />
+        <Image
+          src={item.descImg || item.image}
+          alt="gif"
+          layout="fill"
+          objectFit="contain"
+        />
       </div>
       <div className={classes.desc}>
         <h2 className="h2">{item.title}</h2>
