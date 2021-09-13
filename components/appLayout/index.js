@@ -24,16 +24,20 @@ const AppLayout = (props) => {
             {" "}
             <Link href="/">&lt;AyotiDapo/&gt;</Link>
           </h2>
-          {!mobNav ? (
-            <span className={classes.iconCont} onClick={() => setMobNav(true)}>
-              <Icon id="menu" />
-            </span>
-          ) : (
-            <span className={classes.iconCont} onClick={() => setMobNav(false)}>
-              <Icon id="close" />
-            </span>
-          )}
-          <Navbar />
+          <div className={classes.iconCont}>
+            {!mobNav ? (
+              <span onClick={() => setMobNav(true)}>
+                <Icon id="menu" />
+              </span>
+            ) : (
+              <span onClick={() => setMobNav(false)}>
+                <Icon id="close" />
+              </span>
+            )}
+          </div>
+          <div className={classes.app_nav_div}>
+            <Navbar />
+          </div>
         </header>
         <main>{props.children}</main>
         <MQNavbar setMobNav={setMobNav} mobNav={mobNav} />

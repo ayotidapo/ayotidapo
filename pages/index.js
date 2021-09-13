@@ -2,11 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faLinkedinIn,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Typewriter from "typewriter-effect/dist/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classes from "../styles/Home.module.css";
@@ -14,8 +10,6 @@ import React from "react";
 import Navbar from "../components/appLayout/Navbar";
 
 export default function Home() {
-  const [active, setActive] = React.useState("home");
-  const [h, setH] = React.useState(1);
   React.useEffect(() => {
     new Typewriter("#typewriter", {
       strings: [
