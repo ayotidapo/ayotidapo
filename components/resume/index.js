@@ -7,7 +7,7 @@ const Resume = () => {
 
   return (
     <div className={classes.resume}>
-      {false && <Roller />}h
+      {false && <Roller />}
       <div className={classes.iframe_div}>
         <iframe
           src="https://res.cloudinary.com/oladapo/image/upload/v1630930035/OladapoResume_xz6rl3.pdf#toolbar=0&view=fitH&embedded=true"

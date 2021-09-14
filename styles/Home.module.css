@@ -26,7 +26,24 @@
 
 .img {
   border-radius: 50%;
+  transform: translateY(400px);
+  animation: showUp 0.5s linear 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
+
+@keyframes showUp {
+  from {
+    transform: translateY(400px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .imgOverlay {
   position: absolute;
   background: rgb(14 11 11 / 40%);

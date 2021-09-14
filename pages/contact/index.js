@@ -9,12 +9,12 @@ const Contact = () => {
 };
 export default Contact;
 
-// export async function getStaticProps(context) {
-//   const res = await addNotification();
+export async function getServerSideProps(context) {
+  console.log(123, "00000");
 
-//   return {
-//     props: {
-//       data: res,
-//     },
-//   };
-// }
+  return {
+    props: {
+      selectedEvent: "2",
+    },
+  };
+}

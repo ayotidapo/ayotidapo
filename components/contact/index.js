@@ -10,7 +10,7 @@ import Input from "../../components/Input";
 import { validateInput } from "../../helpers/function";
 import Button from "../../components/Button";
 
-const ContactForm = (props) => {
+const ContactForm = () => {
   const initialInputs = {
     name: {
       type: "text",
@@ -159,4 +159,5 @@ const ContactForm = (props) => {
     </div>
   );
 };
+
 export default ContactForm;
