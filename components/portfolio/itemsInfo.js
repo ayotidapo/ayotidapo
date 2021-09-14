@@ -73,3 +73,8 @@ I worked as an interface developer to translate creative software design concept
     isPrivate: true,
   },
 ];
+
+// @channel if you are using the fushionchart-react plugin, this is for you
+// build: "cp src/fusionchart/fusionmaps/fusioncharts.nigeria.js /node_modules/fusioncharts/maps && react-scripts build"
+// in your package.json  file, update the build command to this :point_up_2::skin-tone-5: assuming the fusioncharts.nigeria.js file is in that location. This will run after david does yarn install  or npm install on the server.
+// Just dropping this here. (edited)
