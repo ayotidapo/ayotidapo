@@ -10,7 +10,7 @@ const Resume = () => {
       {false && <Roller />}
       <div className={classes.iframe_div}>
         <iframe
-          src="https://res.cloudinary.com/oladapo/image/upload/v1630930035/OladapoResume_xz6rl3.pdf#toolbar=0&view=fitH&embedded=true"
+          src="https://res.cloudinary.com/oladapo/image/upload/v1632065505/OladapoResume_br2lar.pdf#toolbar=0&view=fitH&embedded=true"
           allowtransparency="true"
           onLoad={() => setLoading(false)}
         />
