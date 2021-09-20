@@ -45,8 +45,8 @@ export default function About() {
               ExpressJS, Mongoose to create beautiful stuff.
             </p>
             <p>
-              I am currently working with a team of developers on a payment
-              gateway solution at{" "}
+              I am currently working with a team of developers building a
+              Fintech solution at{" "}
               <Link href="http://www.eyowo.com">
                 <a style={{ color: "#06bbad" }} target="_blank">
                   Eyowo{" "}
