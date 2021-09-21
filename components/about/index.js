@@ -42,7 +42,7 @@ export default function About() {
             </p>
             <p>
               I use technologies like ReactJS, Redux, NextJS, GraphQL, Node,
-              ExpressJS, Mongoose to create beautiful stuff.
+              ExpressJS, MongoDB to create beautiful stuff.
             </p>
             <p>
               I am currently working with a team of developers building a
