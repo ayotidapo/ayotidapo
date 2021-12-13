@@ -1,0 +1,108 @@
+If you're using  CRA and you registered the service worker you might find this useful.
+This ships the update to your users on the fly without hard refreshing, manually clearing cache or even closing your browser for the servicing worker to install the new version.
+Doing the above every time can be really annoying (bad user experience).
+The CRA service worker register() method can accept a config object as shown below.
+Just parse the config object like that.:point_down::skin-tone-5:
+serviceWorker.register({
+  onUpdate: registration => {
+    const waitingServiceWorker = registration.waiting
+
+    if (waitingServiceWorker) {
+      waitingServiceWorker.addEventListener("statechange", event => {
+        if (event.target.state === "activated") {
+          window.location.reload();
+        }
+      });
+      waitingServiceWorker.postMessage({ type: "SKIP_WAITING" });
+    }
+  }
+});
+After this you might have to clear your cache one last time before you can start seeing its effects.
+But if you're not using CRA and have already setup your service worker file.
+In the install  callback just invoke this methods self.skipWaiting(); and window.location.reload();
+This will run the activate life cycle method and prevent waiting...
+
+
+///////
+
+
+
+kenshin  1:49 PM
+https://heroicons.com/
+
+
+
+
+
+
+
+
+
+
+ayotidapo9:33 AM
+Morning boss,
+Are u saying doing this solves "the issue of manually adding build folder for the map to work?
+build: "cp src/fusionchart/fusionmaps/fusioncharts.nigeria.js /node_modules/fusioncharts/maps && react-scripts build"
+in your package.json  file, update the build command to this" :point_up_2::skin-tone-5: assuming the fusioncharts.nigeria.js file is in that location. This will run after david does yarn install  or npm install on the server.
+
+
+
+kenshin  6:06 PM
+@channel if you are using the fushionchart-react plugin, this is for you
+build: "cp src/fusionchart/fusionmaps/fusioncharts.nigeria.js /node_modules/fusioncharts/maps && react-scripts build"
+in your package.json  file, update the build command to this ,,,,,, assuming the fusioncharts.nigeria.js file is in that location. This will run after david does yarn install  or npm install on the server.
+Just dropping this here. (edited) 
+
+
+"scripts": {
+  "start": "npm run copy-fusionchart && react-scripts start",
+  "build": "npm run copy-fusionchart  && react-scripts build",
+  "test": "npm run copy-fusionchart && CI=true react-scripts test --coverage --no-cache -u --silent --env=jsdom --testResultsProcessor jest-sonar-reporter",
+  "test:dev": "npm run copy-fusionchart && react-scripts test --watchAll --coverage",
+  "eject": "react-scripts eject",
+  "analyze": "source-map-explorer 'build/static/js/*.js'",
+  "copy-fusionchart": "cp src/fusionchart/fusionmaps/maps/fusioncharts.nigeria.js node_modules/fusioncharts/maps"
+},
+
+
+
+
+
+kenshin  9:49 AM
+Yes it does
+9:49
+But be mindful of the directory path
+9:51
+May be different based on where you put the fushioncharts.nigeria.js file (edited) 
+9:52
+are you back from leave?
+
+
+
+Fusion: clear watermark
+FusionCharts.options.creditLabel = false;
+
+
+npm install canvas to clear canvas error for fusion map
+
+
+
+???web socket
+const app = express();
+const port = process.env.PORT || 5000;
+const server = createServer(app);
+
+
+const webSocketServer = new WebSocket.Server({ server });
+
+server.listen(port, () => console.info(`Server running on port: ${port}`));
+
+OR
+const app = express();
+const port = process.env.PORT || 5000;
+const server= app.listen(port, () => console.info(`Server running on port: ${port}`));
+
+
+const webSocketServer = new WebSocket.Server({ server });
+
+Other app dot truout the app remain same e.g app.use() and the rest
