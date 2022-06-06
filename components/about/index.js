@@ -45,13 +45,12 @@ export default function About() {
               ExpressJS, MongoDB to create beautiful stuff.
             </p>
             <p>
-              I am currently working with a team of developers building a
-              Fintech solution at{" "}
-              <Link href="http://www.eyowo.com">
+              I am currently working with
+              <Link href="http://www.maisonette.com">
                 <a style={{ color: "#06bbad" }} target="_blank">
-                  Eyowo{" "}
+                  &nbsp;Maisonette,{" "}
                 </a>
-              </Link>{" "}
+              </Link>{" "}an E-commerce company located in New York, USA.
             </p>
             <p>At my leisure time, I watch movies and play ping pong game.</p>
           </div>

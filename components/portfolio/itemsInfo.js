@@ -14,8 +14,8 @@ Tech: ReactJs,Redux & Node`,
     title: "Eyowo-Checkout",
     url: `https://pay-staging.eyowo.com/EYW_CBK2Yn12XiPKrAf`,
     image: "/eyw.png",
-    description: `Eyowo-Checkout is a secure payment page that lets you collect payments quickly.It provides user different options through which they can receive payment such as (cards,Eyowo-wallet,Bank transfer, QR-code). It works across devices and can help increase your conversion. Eyowo Checkout makes it easy to have a first-class payments experience.
-I worked as the frontend engineer of the team.
+    description: `Eyowo-Checkout is a secure payment page that lets you collect payments quickly.It provides user different options through which they can receive payment such as (cards,Eyowo-wallet,Bank transfer, QR-code). Eyowo Checkout makes it easy to have a first-class payments experience.
+I worked as the frontend engineer of the team while also contributing to the backend source code built with Node JS.
     `,
     isPrivate: true,
   },
@@ -56,6 +56,15 @@ It also comes with its own Hooks incase of when UI is not needed.`,
   },
   {
     pos: 5,
+    title: "Money Africa",
+    url: `https://money-africa.vercel.app/contents/videos`,
+    github: `https://`,
+    image: "/money-africa.png",
+    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n NOTE: This is still an on-going project`,
+    isPrivate: true,
+  },
+  {
+    pos: 6,
     title: "Outwork-NG",
     url: `https://outwork.ng/`,
     github: `https://github.com/ayotidapo/ayotidapo`,
@@ -64,7 +73,7 @@ It also comes with its own Hooks incase of when UI is not needed.`,
     isPrivate: true,
   },
   {
-    pos: 6,
+    pos: 7,
     title: "AlldayHR",
     url: `https://select.alldayhr.com/`,
     image: "/hr.png",
