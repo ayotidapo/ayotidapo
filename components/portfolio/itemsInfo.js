@@ -25,7 +25,7 @@ I worked as the frontend engineer of the team while also contributing to the bac
     url: `https://money-africa.vercel.app/contents`,
     github: `https://`,
     image: "/money-africa.png",
-    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n Technologies used: NextJs,Typescript,Redux-toolkit,SCSS \n NOTE: updates still ongoing on this projects`,
+    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n Technologies used: NextJs,Typescript,Redux-toolkit,SCSS. \n NOTE: updates still ongoing on this projects`,
     isPrivate: true,
   },
   {
