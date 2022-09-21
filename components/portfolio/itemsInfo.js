@@ -21,14 +21,13 @@ I worked as the frontend engineer of the team while also contributing to the bac
   },
   {
     pos: 2,
-    title: "NAPGEP",
-    url: `https://cbn-napgep.bluegreensoft.com/`,
-    image: "/npg.png",
-    description: `NAPGEP is a federal govt project in conjunction with CBN and the National Youth Service Corps (NYSC) stakeholders. The App is used by NYSC corps members in the six geo-political zones of the country to expand financial inclusion knowledge to their host communities.It helps user to create accessible educational contents for learning and allows a real time chat/discussion feature.                                                                                                         
-I worked in the team to build the web platform of the App`,
+    title: "Money Africa",
+    url: `https://money-africa.vercel.app/contents/videos`,
+    github: `https://`,
+    image: "/money-africa.png",
+    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n Technologies used: NextJs,Typescript,Redux-toolkit,SCSS `,
     isPrivate: true,
   },
-
   {
     pos: 3,
     title: "React-files-uploader",
@@ -43,10 +42,18 @@ flexible to add custom UI
 drag and drop feature and returns the uploaded file(s) url links.
 It also comes with its own Hooks incase of when UI is not needed.`,
     isPrivate: false,
-  },
-
+  },  
   {
     pos: 4,
+    title: "NAPGEP",
+    url: `https://cbn-napgep.bluegreensoft.com/`,
+    image: "/npg.png",
+    description: `NAPGEP is a federal govt project in conjunction with CBN and the National Youth Service Corps (NYSC) stakeholders. The App is used by NYSC corps members in the six geo-political zones of the country to expand financial inclusion knowledge to their host communities.It helps user to create accessible educational contents for learning and allows a real time chat/discussion feature.                                                                                                         
+I worked in the team to build the web platform of the App`,
+    isPrivate: true,
+  },
+  {
+    pos: 5,
     title: "Portfolio-v2",
     url: ``,
     github: `https://github.com/ayotidapo/ayotidapo`,
@@ -55,30 +62,21 @@ It also comes with its own Hooks incase of when UI is not needed.`,
     isPrivate: false,
   },
   {
-    pos: 5,
-    title: "Money Africa",
-    url: `https://money-africa.vercel.app/contents/videos`,
-    github: `https://`,
-    image: "/money-africa.png",
-    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n NOTE: This is still an on-going project`,
-    isPrivate: true,
-  },
-  {
     pos: 6,
-    title: "Outwork-NG",
-    url: `https://outwork.ng/`,
-    github: `https://github.com/ayotidapo/ayotidapo`,
-    image: "/owk.png",
-    description: `A remote work management software We help business managers succeed by putting them in control of their remote staff and productivity.`,
-    isPrivate: true,
-  },
-  {
-    pos: 7,
     title: "AlldayHR",
     url: `https://select.alldayhr.com/`,
     image: "/hr.png",
     description: `AlldayHR is a Nigerian based job portal and career platform owned by Workforce group. The app helps to list candidate job applications for employers and helps connect people looking for jobs with companies hiring. 
 I worked as an interface developer to translate creative software design concepts and ideas into reality using front end technology.`,
+    isPrivate: true,
+  },
+  {
+    pos: 7,
+    title: "Outwork-NG",
+    url: `https://outwork.ng/`,
+    github: `https://github.com/ayotidapo/ayotidapo`,
+    image: "/owk.png",
+    description: `A remote work management software We help business managers succeed by putting them in control of their remote staff and productivity.`,
     isPrivate: true,
   },
 ];
