@@ -3,7 +3,7 @@ export default [
   {
     pos: 0,
     title: "KOYA-LMS",
-    url: `https://dsp.deltastatelms.com/`,
+    url: `https://mtu.koya.co/`,
     image: "/koya.png",
     description: `Koya is Softcom Ltd owned project. Its an advanced learning technology that enables educational institutions to deliver a personalized learning experience to meet the ever-evolving needs of today’s learners. Koya gives educators access to tools that help teach, track and assess learning capabilities of their students, with the ability to collaborate, share and provide educational materials seamlessly to their students in a centralized location. 
 Tech: ReactJs,Redux & Node`,
