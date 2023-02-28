@@ -55,7 +55,7 @@ I worked in the team to build the web platform of the App`,
   {
     pos: 5,
     title: "QuidLib",
-    url: ``,
+    url: `https://profound-profiterole-2b33a4.netlify.app`,
     github: `https://github.com/ayotidapo/QuiLib`,
     image: "/quidLib.png",
     description: `A prototype ecommerce app for book purchase`,
