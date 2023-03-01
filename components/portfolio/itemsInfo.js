@@ -64,7 +64,7 @@ I worked in the team to build the web platform of the App`,
   {
     pos: 6,
     title: "tail-UI",
-    url: `hhttps://vencru-settings.vercel.app/`,
+    url: `https://vencru-settings.vercel.app/`,
     image: "/tail.png",
     description: `This is just a sample UI designed to explore the tailwind css library with react, more functionality will 
     be added to make it a full stack app using the MERN technologies`,
