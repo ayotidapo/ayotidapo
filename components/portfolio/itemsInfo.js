@@ -2,11 +2,11 @@
 export default [
   {
     pos: 0,
-    title: "KOYA-LMS",
-    url: `https://mtu.koya.co/`,
-    image: "/koya.png",
-    description: `Koya is Softcom Ltd owned project. Its an advanced learning technology that enables educational institutions to deliver a personalized learning experience to meet the ever-evolving needs of today’s learners. Koya gives educators access to tools that help teach, track and assess learning capabilities of their students, with the ability to collaborate, share and provide educational materials seamlessly to their students in a centralized location. 
-Tech: ReactJs,Redux & Node`,
+    title: "Money Africa",
+    url: `https://money-africa.vercel.app/contents`,
+    github: `https://`,
+    image: "/money-africa.png",
+    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n Technologies used: NextJs,Typescript,Redux-toolkit,SCSS. \n NOTE: updates still ongoing on this projects`,
     isPrivate: true,
   },
   {
@@ -21,12 +21,12 @@ I worked as the frontend engineer of the team while also contributing to the bac
   },
   {
     pos: 2,
-    title: "Money Africa",
-    url: `https://money-africa.vercel.app/contents`,
-    github: `https://`,
-    image: "/money-africa.png",
-    description: `MoneyAfrica is a subscription-based Ed-tech platform providing access to free and paid financial knowledge for learners. I worked on the frontend application of the app using Next Js & Typescript.\n Technologies used: NextJs,Typescript,Redux-toolkit,SCSS. \n NOTE: updates still ongoing on this projects`,
-    isPrivate: true,
+    title: "Portfolio-v2",
+    url: ``,
+    github: `https://github.com/ayotidapo/ayotidapo`,
+    image: "/port.png",
+    description: `The version 2 version of my portfolio.It Built with NextJs with its own api`,
+    isPrivate: false,  
   },
   {
     pos: 3,
@@ -36,11 +36,11 @@ I worked as the frontend engineer of the team while also contributing to the bac
     image: "/npm.jpeg",
     descImg: "/rfu.png",
     description: `A very flexible file uploader that comes with:
-UI showing progress bar of simultaneous (Single or Multiple) file(s) uploading,
-allows cancel of uploading,
-flexible to add custom UI
-drag and drop feature and returns the uploaded file(s) url links.
-It also comes with its own Hooks incase of when UI is not needed.`,
+      UI showing progress bar of simultaneous (Single or Multiple) file(s) uploading,
+      allows cancel of uploading,
+      flexible to add custom UI
+      drag and drop feature and returns the uploaded file(s) url links.
+      It also comes with its own Hooks incase of when UI is not needed.`,
     isPrivate: false,
   },  
   {
@@ -63,15 +63,24 @@ I worked in the team to build the web platform of the App`,
   },
   {
     pos: 6,
-    title: "Portfolio-v2",
-    url: ``,
-    github: `https://github.com/ayotidapo/ayotidapo`,
-    image: "/port.png",
-    description: `The version 2 version of my portfolio.It Built with NextJs with its own api`,
-    isPrivate: false,
+    title: "tail-UI",
+    url: `hhttps://vencru-settings.vercel.app/`,
+    image: "/tail.png",
+    description: `This is just a sample UI designed to explore the tailwind css library with react, more functionality will 
+    be added to make it a full stack app using the MERN technologies`,
+    isPrivate: true,
   },
   {
     pos: 7,
+    title: "KOYA-LMS",
+    url: `https://mtu.koya.co/`,
+    image: "/koya.png",
+    description: `Koya is Softcom Ltd owned project. Its an advanced learning technology that enables educational institutions to deliver a personalized learning experience to meet the ever-evolving needs of today’s learners. Koya gives educators access to tools that help teach, track and assess learning capabilities of their students, with the ability to collaborate, share and provide educational materials seamlessly to their students in a centralized location. 
+Tech: ReactJs,Redux & Node`,
+    isPrivate: true,
+  },
+  {
+    pos: 8,
     title: "AlldayHR",
     url: `https://select.alldayhr.com/`,
     image: "/hr.png",
@@ -80,7 +89,7 @@ I worked as an interface developer to translate creative software design concept
     isPrivate: true,
   },
   {
-    pos: 8,
+    pos: 9,
     title: "Outwork-NG",
     url: `https://outwork.ng/`,
     github: `https://github.com/ayotidapo/ayotidapo`,
