@@ -12,7 +12,7 @@ export default [
   {
     pos: 1,
     title: "Eyowo-Checkout",
-    url: `https://eyowo.me/EYW_4FyEQMAZcngMPO2`,
+    url: `https://checkout.eyowo.com/EYW_4FyEQMAZcngMPO2`,
     image: "/eyw.png",
     description: `Eyowo-Checkout is a secure payment page that lets you collect payments quickly.It provides user different options through which they can receive payment such as (cards,Eyowo-wallet,Bank transfer, QR-code). Eyowo Checkout makes it easy to have a first-class payments experience.
 I worked as the frontend engineer of the team while also contributing to the backend source code built with Node JS.
