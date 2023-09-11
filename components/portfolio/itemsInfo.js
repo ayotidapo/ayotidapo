@@ -21,6 +21,16 @@ I worked as the frontend engineer of the team while also contributing to the bac
   },
   {
     pos: 2,
+    title: "Efiko kids",
+    url: `https://efiko-kids.vercel.app/register`,
+    github: ``,
+    image: "/efiko.png",
+    descImg: "/efiko.png",
+    description: `Efiko kids is simply a online learning platform for nigerian kids in primary school.This is still an ongoing project`,
+    isPrivate: true,
+  }, 
+  {
+    pos: 3,
     title: "Portfolio-v2",
     url: ``,
     github: `https://github.com/ayotidapo/ayotidapo`,
@@ -28,16 +38,7 @@ I worked as the frontend engineer of the team while also contributing to the bac
     description: `The version 2 version of my portfolio.It Built with NextJs with its own api`,
     isPrivate: false,  
   },
-  {
-    pos: 3,
-    title: "Efiko kids",
-    url: `https://efiko-kids.vercel.app/register`,
-    github: ``,
-    image: "/efiko.jpeg",
-    descImg: "/rfu.png",
-    description: `Efiko kids is simply a online learning platform for nigerian kids in primary school.this is still an ongoing project`,
-    isPrivate: false,
-  },  
+   
   {
     pos: 4,
     title: "React-files-uploader",
