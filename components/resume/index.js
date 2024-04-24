@@ -12,6 +12,7 @@ const Resume = () => {
         <iframe
           src='https://res.cloudinary.com/oladapo/image/upload/v1654627549/OladapoResume_portFolio_wwlz15.pdf#toolbar=0&view=fitH&embedded=true'
           onLoad={() => setLoading(false)}
+          
         />
       </div>
     </div>
