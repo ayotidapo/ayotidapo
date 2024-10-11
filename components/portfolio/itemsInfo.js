@@ -21,12 +21,11 @@ export default [
   },
   {
     pos: 2,
-    title: 'Eyowo-Checkout',
-    url: `https://checkout.eyowo.com/EYW_4FyEQMAZcngMPO2`,
-    image: '/eyw.png',
-    description: `Eyowo-Checkout is a secure payment page that lets you collect payments quickly.It provides user different options through which they can receive payment such as (cards,Eyowo-wallet,Bank transfer, QR-code). Eyowo Checkout makes it easy to have a first-class payments experience.
-I worked as the frontend engineer of the team while also contributing to the backend source code built with Node JS.
-    `,
+     title: 'AlldayHR',
+    url: `https://select.alldayhr.com/`,
+    image: '/hr.png',
+    description: `AlldayHR is a Nigerian based job portal and career platform owned by Workforce group. The app helps to list candidate job applications for employers and helps connect people looking for jobs with companies hiring. 
+    I worked as an interface developer to translate creative software design concepts and ideas into reality using front end technology.`,
     isPrivate: true,
   },
   {
@@ -102,11 +101,12 @@ Tech: ReactJs,Redux & Node`,
   },
   {
     pos: 10,
-    title: 'AlldayHR',
-    url: `https://select.alldayhr.com/`,
-    image: '/hr.png',
-    description: `AlldayHR is a Nigerian based job portal and career platform owned by Workforce group. The app helps to list candidate job applications for employers and helps connect people looking for jobs with companies hiring. 
-I worked as an interface developer to translate creative software design concepts and ideas into reality using front end technology.`,
+    title: 'Eyowo-Checkout',
+    url: `https://checkout.eyowo.com/EYW_4FyEQMAZcngMPO2`,
+    image: '/eyw.png',
+    description: `Eyowo-Checkout is a secure payment page that lets you collect payments quickly.It provides user different options through which they can receive payment such as (cards,Eyowo-wallet,Bank transfer, QR-code). Eyowo Checkout makes it easy to have a first-class payments experience.
+    I worked as the frontend engineer of the team while also contributing to the backend source code built with Node JS.
+    `,
     isPrivate: true,
   },
   {
