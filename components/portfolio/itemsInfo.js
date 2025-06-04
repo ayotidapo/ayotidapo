@@ -12,7 +12,7 @@ export default [
   {
     pos: 1,
     title: 'Anfani UK',
-    url: `https://anfa-eta.vercel.app/login`,
+    url: `https://anfa-eta.vercel.app/app/login`,
     image: '/anfani.png',
     description: `Anfani is the energy brokerage platform that enables increased affordability of, and access to, renewable energy solutions. \n
     I worked as the frontend developer on the team. I used technologies like NextJS,React Query,SCSS.
