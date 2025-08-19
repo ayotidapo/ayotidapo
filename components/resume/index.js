@@ -10,12 +10,12 @@ const Resume = () => {
       {false && <Roller />}
       <div className={classes.iframe_div}>
         <iframe
-          src='https://res.cloudinary.com/oladapo/image/upload/v1728639829/OladapoResumeNew_okuizu.pdf#toolbar=0&view=fitH&embedded=true'
+          src='https://res.cloudinary.com/oladapo/image/upload/v1755591650/_OladapoResume__port_rzsmhs.pdf#toolbar=0&view=fitH&embedded=true'
           onLoad={() => setLoading(false)}
           
         />
       </div>
     </div>
   );
-};
+};  
 export default Resume;
